@@ -29,7 +29,7 @@ screen.onkey(paddle_l.move_down, "s");
 
 game_is_running = True;
 while game_is_running:
-    time.sleep(0.1);
+    time.sleep(ball.move_speed);
     screen.update();
     ball.move();
 
